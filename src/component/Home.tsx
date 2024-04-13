@@ -147,6 +147,7 @@ const Home = () => {
             onClick={() => {
               setCount(0);
               setShowAnswer(false);
+              setLetterChoose([])
             }}
           />
         </div>
